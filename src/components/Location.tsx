@@ -1,5 +1,10 @@
 import React from 'react'
+import dataContext from '../ContextData'
 
 export default function Location() {
-  return <div>Location component</div>
+
+  const context = React.useContext(dataContext)
+
+  return <h1>{context.data.name}</h1>
+  
 }
