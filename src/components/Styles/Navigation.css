@@ -1,0 +1,8 @@
+.bar {
+    background-color: gray;
+    color: black;
+    padding: 1%;
+    justify-content: center;
+    display: flex;
+    gap: 15%
+}
