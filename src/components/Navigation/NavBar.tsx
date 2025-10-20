@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom'
 import '../Styles/Navigation.css';
 import { useContext } from 'react';
+import {LINKS} from '../../Links'
 import dataContext from '../../ContextData';
-import LINKS from '../../Links'
 
 
 
@@ -10,7 +10,6 @@ function NavBar()
 {
 
     const context = useContext(dataContext)
-    console.log(context.data)
 
 
     return (

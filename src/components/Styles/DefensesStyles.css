@@ -1,0 +1,101 @@
+.frame
+{
+    border: 2px solid black;
+    justify-self: center;
+    width: 120vh;
+    height: 150vh;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+.h1
+{
+    color: blue;
+    font-style: italic;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 1%;
+    gap:100%
+    
+}
+.h2
+{
+    color: blue;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 1%;
+}
+.h3
+{
+    font-weight: bold;
+    font-size: 1.4rem;
+    padding: 10px;
+}
+.h4
+{
+    justify-self: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.listDisplay 
+{
+    padding: 10px;
+    font-weight: bold;
+}
+.wallsSpec{
+    text-align: center;
+}
+.card 
+{
+    border: 2px solid black;
+    width: 300px;
+    transition: transform .1s;
+
+}
+.cardBox
+{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+padding: 20px;
+gap: 10px;
+
+}
+.card:hover{
+    transform: scale(1.1)
+}
+.progressContainer {
+  width: 100%;
+  height: 20px;
+  background-color: lightgray;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.fillProgress {
+  height: 100%;
+  background-color: red;
+}
+.fillProgress2{
+    height: 100%;
+  background-color: orange;
+
+}
+.fillProgress3{
+    height: 100%;
+  background-color: green;
+
+}
+.p{
+    align-self: 'center';
+    font-size: 1rem;
+}
+.dropbtn
+{
+    border: none;
+    background-color: black;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
