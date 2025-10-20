@@ -1,5 +1,18 @@
-.classList
+.button
 {
+    display: flex;
     border: 2px solid black;
     margin: 1%;
+    width: 80%;
+    height: 6vh;
+    align-items: center;
+    justify-self: center;
+    font-size: 1.2rem;
+    padding: 1%;
+    transition: transform .1s;
+
+}
+.button:hover{
+
+    transform: scale(1.1);
 }
